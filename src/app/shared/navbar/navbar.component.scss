@@ -9,3 +9,31 @@
   }
 }
 
+@media (max-width: 767px){
+  .navbar .navbar-nav .dropdown-menu {
+    //height: 400px;
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .dropdown.show .dropdown-menu {
+    display: block;
+    position: static;
+    float: none;
+    background: 0 0!important;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .dropdown .dropdown-menu, .dropdown.show .dropdown-menu {
+    border: 0;
+    -webkit-transition: none;
+    transition: none;
+    box-shadow: none;
+    width: auto;
+    height: auto;
+  }
+}
+

@@ -59,4 +59,20 @@ export class NavbarComponent implements OnInit {
             return false;
         }
     }
+
+    toggleNav(id){
+        let html = document.getElementById(id);
+        let elements = document.getElementsByClassName('show');
+
+        console.log(elements);
+
+        if(elements.length > 0 ){
+            for (let elementsKey in elements) {
+                console.log(elements[elementsKey]);
+                elements[elementsKey].classList.remove('show')
+            }
+        }
+
+        html.classList.toggle('show');
+    }
 }
