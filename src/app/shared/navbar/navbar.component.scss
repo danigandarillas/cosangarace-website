@@ -2,6 +2,10 @@
   cursor: pointer;
 }
 
-.nav-bar-custom{
-  color: #66615B!important;
+@media screen and (max-width: 991px){
+  .nav-bar-custom{
+    color: #66615B!important;
+    padding-left: 0px!important;
+  }
 }
+
