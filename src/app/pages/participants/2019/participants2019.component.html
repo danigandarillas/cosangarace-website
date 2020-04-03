@@ -1,0 +1,37 @@
+<div class="wrapper">
+    <div class="page-header page-header-small" data-parallax="true" style="background-image: url('../../../../assets/img/2019/2019_3.png');">
+        <div class="filter"></div>
+    </div>
+    <div class="section profile-content">
+        <div class="container">
+            <div class="owner">
+                <div class="name pt-5">
+                    <h2 class="title mb-5">PARTICIPANTES 2018<br /></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 ml-auto mr-auto">
+                    <table class="ml-auto mr-auto">
+                        <thead>
+                        <tr>
+<!--                            <th class="p-2 d-none d-sm-table-cell">ID</th>-->
+                            <th class="p-2">NOMBRES</th>
+                            <th class="p-2 d-none d-sm-table-cell">GENERO</th>
+                            <th class="p-2">CATEGORIA</th>
+                            <th class="p-2">PAIS</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let participant of participants">
+<!--                                <td class="p-2 d-none d-sm-table-cell">{{ participant.id }}</td>-->
+                                <td class="p-2">{{ participant.name }}</td>
+                                <td class="p-2 d-none d-sm-table-cell">{{ participant.gender }}</td>
+                                <td class="p-2">{{ participant.category }}</td>
+                                <td class="p-2">{{ participant.nationality }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+        </div>
+    </div>
+</div>

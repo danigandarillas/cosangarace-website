@@ -1,0 +1,202 @@
+<div class="wrapper">
+    <div class="page-header page-header-small" data-parallax="true" style="background-image: url('../../../../assets/img/2019/2019_6.jpg');">
+        <div class="filter"></div>
+    </div>
+    <div class="section profile-content">
+        <div class="container">
+            <div class="owner">
+                <div class="name pt-5">
+                    <h2 class="title mb-2">RESULTADOS EDICIÓN 2019</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 ml-auto mr-auto">
+                    <div class="owner">
+                        <div class="name pt-5">
+                            <h5 class="title">Expertos Hombres</h5>
+                        </div>
+                    </div>
+                    <table class="ml-auto mr-auto">
+                        <thead>
+                        <tr>
+                            <th class="p-2 d-none d-sm-table-cell">PUESTO</th>
+                            <th class="p-2">NOMBRE</th>
+                            <th class="p-2 d-none d-sm-table-cell">1er DESCENSO</th>
+                            <th class="p-2 d-none d-sm-table-cell">2do DESCENSO</th>
+                            <th class="p-2">FINAL</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr *ngFor="let participant of participants">
+                            <td *ngIf="participant.category === 1" class="p-2 d-none d-sm-table-cell">{{ participant.position }}</td>
+                            <td *ngIf="participant.category === 1" class="p-2">{{ participant.name }}</td>
+                            <td *ngIf="participant.category === 1" class="text-center p-2 d-none d-sm-table-cell">{{ participant.firstDecense }}</td>
+                            <td *ngIf="participant.category === 1" class="text-center d-none d-sm-table-cell">{{ participant.secondDesense }}</td>
+                            <td *ngIf="participant.category === 1" class="text-center p-2">{{ participant.final }}</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 ml-auto mr-auto">
+                    <div class="owner">
+                        <div class="name pt-5">
+                            <h5 class="title">Expertos Mujeres</h5>
+                        </div>
+                    </div>
+                    <table class="ml-auto mr-auto">
+                        <thead>
+                        <tr>
+                            <th class="p-2 d-none d-sm-table-cell">PUESTO</th>
+                            <th class="p-2">NOMBRE</th>
+                            <th class="p-2 d-none d-sm-table-cell">1er DESCENSO</th>
+                            <th class="p-2 d-none d-sm-table-cell">2do DESCENSO</th>
+                            <th class="p-2">FINAL</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr *ngFor="let participant of participants">
+                            <td *ngIf="participant.category === 2" class="p-2 d-none d-sm-table-cell">{{ participant.position }}</td>
+                            <td *ngIf="participant.category === 2" class="p-2">{{ participant.name }}</td>
+                            <td *ngIf="participant.category === 2" class="text-center p-2 d-none d-sm-table-cell">{{ participant.firstDecense }}</td>
+                            <td *ngIf="participant.category === 2" class="text-center d-none d-sm-table-cell">{{ participant.secondDesense }}</td>
+                            <td *ngIf="participant.category === 2" class="text-center p-2">{{ participant.final }}</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 ml-auto mr-auto">
+                    <div class="owner">
+                        <div class="name pt-5">
+                            <h5 class="title">Novatos Mixto</h5>
+                        </div>
+                    </div>
+                    <table class="ml-auto mr-auto">
+                        <thead>
+                        <tr>
+                            <th class="p-2 d-none d-sm-table-cell">PUESTO</th>
+                            <th class="p-2">NOMBRE</th>
+                            <th class="p-2 d-none d-sm-table-cell">1er DESCENSO</th>
+                            <th class="p-2 d-none d-sm-table-cell">2do DESCENSO</th>
+                            <th class="p-2">FINAL</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr *ngFor="let participant of participants">
+                            <td *ngIf="participant.category === 3" class="p-2 d-none d-sm-table-cell">{{ participant.position }}</td>
+                            <td *ngIf="participant.category === 3" class="p-2">{{ participant.name }}</td>
+                            <td *ngIf="participant.category === 3" class="text-center p-2 d-none d-sm-table-cell">{{ participant.firstDecense }}</td>
+                            <td *ngIf="participant.category === 3" class="text-center d-none d-sm-table-cell">{{ participant.secondDesense }}</td>
+                            <td *ngIf="participant.category === 3" class="text-center p-2">{{ participant.final }}</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 ml-auto mr-auto">
+                    <div class="owner">
+                        <div class="name pt-5">
+                            <h5 class="title">Clasificatorias Expertos Hombres</h5>
+                        </div>
+                    </div>
+                    <table class="ml-auto mr-auto">
+                        <thead>
+                        <tr>
+                            <th class="p-2">PUESTO</th>
+                            <th class="p-2 d-none d-sm-table-cell">NOMBRE</th>
+                            <th class="p-2">1er DESCENSO</th>
+                            <th class="p-2">2do DESCENSO</th>
+                            <th class="p-2">MEJOR TIEMPO</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr *ngFor="let participant of qualifiers">
+                            <td *ngIf="participant.category === 1"
+                                class="p-2 d-none d-sm-table-cell">{{ participant.position }}</td>
+                            <td *ngIf="participant.category === 1" class="p-2">{{ participant.name }}</td>
+                            <td *ngIf="participant.category === 1"
+                                class="text-center p-2 d-none d-sm-table-cell">{{ participant.firstDecense }}</td>
+                            <td *ngIf="participant.category === 1"
+                                class="text-center p-2">{{ participant.secondDesense }}</td>
+                            <td *ngIf="participant.category === 1" class="text-center p-2">{{ participant.final }}</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 ml-auto mr-auto">
+                    <div class="owner">
+                        <div class="name pt-5">
+                            <h5 class="title">Clasificatorias Expertos Mujeres</h5>
+                        </div>
+                    </div>
+                    <table class="ml-auto mr-auto">
+                        <thead>
+                        <tr>
+                            <th class="p-2">PUESTO</th>
+                            <th class="p-2 d-none d-sm-table-cell">NOMBRE</th>
+                            <th class="p-2">1er DESCENSO</th>
+                            <th class="p-2">2do DESCENSO</th>
+                            <th class="p-2">MEJOR TIEMPO</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr *ngFor="let participant of qualifiers">
+                            <td *ngIf="participant.category === 1"
+                                class="p-2 d-none d-sm-table-cell">{{ participant.position }}</td>
+                            <td *ngIf="participant.category === 1" class="p-2">{{ participant.name }}</td>
+                            <td *ngIf="participant.category === 1"
+                                class="text-center p-2 d-none d-sm-table-cell">{{ participant.firstDecense }}</td>
+                            <td *ngIf="participant.category === 1"
+                                class="text-center p-2">{{ participant.secondDesense }}</td>
+                            <td *ngIf="participant.category === 1" class="text-center p-2">{{ participant.final }}</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 ml-auto mr-auto">
+                    <div class="owner">
+                        <div class="name pt-5">
+                            <h5 class="title">Clasificatorias Novatos Mixtos</h5>
+                        </div>
+                    </div>
+                    <table class="ml-auto mr-auto">
+                        <thead>
+                        <tr>
+                            <th class="p-2">PUESTO</th>
+                            <th class="p-2 d-none d-sm-table-cell">NOMBRE</th>
+                            <th class="p-2">1er DESCENSO</th>
+                            <th class="p-2">2do DESCENSO</th>
+                            <th class="p-2">MEJOR TIEMPO</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr *ngFor="let participant of qualifiers">
+                            <td *ngIf="participant.category === 1"
+                                class="p-2 d-none d-sm-table-cell">{{ participant.position }}</td>
+                            <td *ngIf="participant.category === 1" class="p-2">{{ participant.name }}</td>
+                            <td *ngIf="participant.category === 1"
+                                class="text-center p-2 d-none d-sm-table-cell">{{ participant.firstDecense }}</td>
+                            <td *ngIf="participant.category === 1"
+                                class="text-center p-2">{{ participant.secondDesense }}</td>
+                            <td *ngIf="participant.category === 1" class="text-center p-2">{{ participant.final }}</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
