@@ -1,24 +1,20 @@
-# [Paper Kit 2 Angular - Free Bootstrap 4 UI Kit](https://demos.creative-tim.com/paper-kit-2-angular/)
+# [Cosangarace Webiste Angular 7](http://v2.cosangarace.com/)
 
-![version](https://img.shields.io/badge/version-2.0.0-blue.svg) 
+![version](https://img.shields.io/badge/version-2.0.0-blue.svg) [![license][license-badge]][LICENSE]
+![Paper Kit 2 Angular](http://v2.cosangarace.com/assets/img/thumbail.png "Paper Kit 2 Angular Free")
 
-Cosangarace website is created under the free Theme 
-
-Paper Kit 2 Angular is a free Bootstrap 4 UI Kit with pale colors, beautiful typography built for Angular 7.
+Cosangarace website is built for Angular 7 under the free Bootstrap 4 "Paper-Kit-2-Angular" Theme made by https://www.creative-tim.com/license.
 
 All components are fully responsive and look great on every screen size. Transitions, shadows, colors, they all resemble the flow you would have using pieces of paper.
 
-We have created Paper UI Kit kit having pastel colors and paper in mind. It feels light, fresh and easy to go through.
-
 Paper Kit 2 Angular is using Ng Bootstrap (https://ng-bootstrap.github.io/#/home), as core framework.
-
 
 ## Quick start
 
 Quick start options:
 
 - [Download from Github](https://github.com/gandarillas/cosangarace).
-- Clone the repo: `git clone https://github.com/creativetimofficial/pk2-angular.git`.
+- Clone the repo: `git clone https://github.com/gandarillas/cosangarace-website.git`.
 
 ## Browser Support
 
@@ -28,7 +24,7 @@ At present, we officially aim to support the last two versions of the following 
 
 
 ## Resources
-- [Live Preview](https://cosangarace.com/)
+- [Live Preview](https://v2.cosangarace.com/)
 
 ## Technical Support or Questions
 
@@ -39,3 +35,6 @@ If you have questions or need help integrating the product please [contact us](h
 - Copyright 2018 Creative Tim (https://www.creative-tim.com)
 - Creative Tim [license](https://www.creative-tim.com/license)
 
+[CHANGELOG]: ./CHANGELOG.md
+[LICENSE]: ./LICENSE.md
+[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
