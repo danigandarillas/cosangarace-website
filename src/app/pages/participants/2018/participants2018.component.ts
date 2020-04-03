@@ -12,6 +12,6 @@ export class Participants2018Component {
     participants: any = (participants as any).default;
 
     constructor() {
-        console.log(participants);
+
     }
 }

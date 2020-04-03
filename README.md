@@ -3,7 +3,8 @@
 ![version](https://img.shields.io/badge/version-2.0.0-blue.svg) [![license][license-badge]][LICENSE]
 ![Paper Kit 2 Angular](http://v2.cosangarace.com/assets/img/thumbail.png "Paper Kit 2 Angular Free")
 
-Cosangarace website is built for Angular 7 under the free Bootstrap 4 "Paper-Kit-2-Angular" Theme made by https://www.creative-tim.com/license.
+Cosangarace website is built for Angular 7 under the free Bootstrap 4 "Paper-Kit-2-Angular" Theme 
+made by https://www.creative-tim.com/license.
 
 All components are fully responsive and look great on every screen size. Transitions, shadows, colors, they all resemble the flow you would have using pieces of paper.
 
@@ -13,8 +14,14 @@ Paper Kit 2 Angular is using Ng Bootstrap (https://ng-bootstrap.github.io/#/home
 
 Quick start options:
 
-- [Download from Github](https://github.com/gandarillas/cosangarace).
+- Open terminal
 - Clone the repo: `git clone https://github.com/gandarillas/cosangarace-website.git`.
+- Install NodeJs
+- Go to your file project 
+- Run in terminal: npm install -g @angular/cli@latest
+- Run in terminal: npm install
+- Run in the terminal: ng serve
+- Open a browser and navigate to: http:localhost:4200/
 
 ## Browser Support
 
