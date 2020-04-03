@@ -3,8 +3,9 @@
 ![version](https://img.shields.io/badge/version-2.0.0-blue.svg) [![license][license-badge]][LICENSE]
 ![Paper Kit 2 Angular](http://v2.cosangarace.com/assets/img/thumbail.png "Paper Kit 2 Angular Free")
 
-Cosangarace website is built for Angular 7 under the free Bootstrap 4 "Paper-Kit-2-Angular" Theme 
-made by https://www.creative-tim.com/license.
+Cosangarace website is built for Angular 7 under the free Bootstrap 4 The "Paper-Kit-2-Angular". 
+
+Paper-Kit-2-Angular is made by [Creative Tim](https://www.creative-tim.com)
 
 All components are fully responsive and look great on every screen size. Transitions, shadows, colors, they all resemble the flow you would have using pieces of paper.
 
@@ -35,7 +36,7 @@ At present, we officially aim to support the last two versions of the following 
 
 ## Technical Support or Questions
 
-If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us) instead of opening an issue.
+If you have questions or need help integrating the product please [Contact me](mailto:danigandarillas@gmail.com).
 
 ## Licensing
 
